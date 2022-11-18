@@ -1,0 +1,44 @@
+.avail-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+margin-top: 30px;
+}
+
+
+.avail-container h1{
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.search-bar input{
+    width: 250px;
+    padding: 15px;
+    border-radius: 30px;
+    border: 2px solid #86d4c4;
+    padding-left: 50px;
+}
+
+.attend-main{
+    display: flex;
+    padding: 20px;
+    margin-top: 40px;
+}
+.attendance{
+    width: 250px;
+    height: 50vh;
+    background-color: #01bfa6;
+    margin: 0 30px;
+    border-radius: 20px;
+    text-align: start;
+}
+.attendance h2{
+    padding: 10px;
+   margin: 30px 10px 0px 10px ;
+   color: white;
+   background-color: #20dac2;
+   font-size: 25px;
+}
